@@ -2,9 +2,10 @@ const HomePage: React.FC = () => {
   return (
     <div className="page">
       <header className="page-header">
-        <h1>🌐 WebLab2 — React + TypeScript</h1>
+        <h1>🌐 WebLab3</h1>
         <p className="muted">
-          Версия второй лабораторной работы на React, TypeScript и Vite.
+          Лабораторная работа №3 по веб-программированию на React и TypeScript
+          с использованием Vite.
         </p>
       </header>
 
@@ -12,13 +13,13 @@ const HomePage: React.FC = () => {
         <h2>Что реализовано</h2>
         <ul className="list">
           <li>
-            📚 <strong>Поиск книг</strong> — Open Library API.
+            📚 <strong>Поиск книг</strong> - Open Library API.
           </li>
           <li>
-            💱 <strong>Конвертер валют</strong> — Frankfurter API.
+            💱 <strong>Конвертер валют</strong> - Frankfurter API.
           </li>
           <li>
-            ☁️ <strong>Погода</strong> — Open-Meteo API.
+            ☁️ <strong>Погода</strong> - Open-Meteo API.
           </li>
         </ul>
         <p className="muted">
