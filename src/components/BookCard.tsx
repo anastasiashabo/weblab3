@@ -18,7 +18,7 @@ const BookCard: React.FC<BookCardProps> = ({ book }) => {
         <h3 className="book-card__title">{book.title}</h3>
         <p className="book-card__meta">
           {book.authors}
-          {book.year !== "—" && ` • ${book.year}`}
+          {book.year !== "-" && ` • ${book.year}`}
         </p>
         <a
           className="book-card__link"
