@@ -11,7 +11,7 @@ const NavBar: React.FC<NavBarProps> = ({ current }) => {
   return (
     <header className="site-header">
       <div className="container site-header__inner">
-        <div className="site-header__brand">WebLab2 React</div>
+        <div className="site-header__brand">WebLab3</div>
         <nav className="nav">
           <a href="./" className={linkClass("home")}>
             Главная
